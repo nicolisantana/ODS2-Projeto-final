@@ -1,14 +1,16 @@
 .wrapper{
-    position: relative;
-    width: 1440px;
+    position: absolute;
+    width: 100%;
     height: 1839px;
-    
-    background: url(img2.jpg);
+    left: 0%;
+    top: 0%;
+    background: url(img21.png);
+    background-repeat:inherit;
 }
 
 .cima{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 111px;
     left: 0px;
     top: 0px;
@@ -39,7 +41,7 @@
     width: 107px;
     height: 111px;
     left: 18px;
-    top: 0px;
+    top: 2px;
 
     background: url(ods2.png);
 }
@@ -48,7 +50,7 @@
     position: absolute;
     width: 53px;
     height: 53px;
-    left: 1293px;
+    left: 1493px;
     top: 24px;
     border-radius: 100%;
     background: #FFE296;
@@ -58,7 +60,7 @@
     position: absolute;
     width: 53px;
     height: 53px;
-    left: 1359px;
+    left: 1429px;
     top: 24px;
     border-radius: 100%;
     background: #FED15C;
@@ -68,7 +70,7 @@
     position: absolute;
     width: 974px;
     height: 207px;
-    left: 224px;
+    left: 324px;
     top: 142px;
 
     background: #00000094;
@@ -80,8 +82,8 @@
 position: absolute;
 width: 641px;
 height: 179px;
-left: 154px;
-top: 05px;
+left: 164px;
+top: -10px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -98,8 +100,8 @@ color: #FFFFFF;
     position: absolute;
     width: 641px;
     height: 179px;
-    left: 374px;
-    top: 190px;
+    left: 484px;
+    top: 165px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -126,8 +128,24 @@ border-radius: 27px;
     position: absolute;
 width: 511px;
 height: 627px;
-left: 62px;
+left: 42px;
 top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.introdução1{
+     position: absolute;
+width: 511px;
+height: 627px;
+left: 202px;
+top: 4px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -142,7 +160,7 @@ color: #FFFFFF;
     position: absolute; 
     overflow:auto; 
     top: 525px;
-    left: 73%; 
+    left: 77%; 
     z-index: 5; 
     margin-top: -155px; 
     margin-left: -200px; 
@@ -152,7 +170,7 @@ color: #FFFFFF;
     position: absolute;
     width: 554px;
     height: 0px;
-    left: 845px;
+    left: 975px;
     top: 641px;
 
     border: 3px solid #AB8D21;
@@ -163,7 +181,7 @@ color: #FFFFFF;
     position: absolute;
     width: 554px;
     height: 0px;
-    left: 845px;
+    left: 975px;
     top: 932px;
 
     border: 3px solid #AB8D21;
@@ -174,7 +192,7 @@ color: #FFFFFF;
     position: absolute;
     width: 230px;
     height: 150px;
-    left: 838px;
+    left: 938px;
     top: 695px;
     
     background: url(on.png);
@@ -185,7 +203,7 @@ color: #FFFFFF;
     position: absolute;
     width: 172px;
     height: 153px;
-    left: 1125px;
+    left: 1235px;
     top: 695px;
     
     background: url(ds.jpg);
@@ -206,7 +224,7 @@ color: #FFFFFF;
     position: absolute;
     width: 504px;
     height: 471px;
-    left: 61px;
+    left: 41px;
     top: 22px;
 
     font-family: 'Inter';
@@ -237,10 +255,10 @@ color: #FFFFFF;
 
 .quadrado4{
     position: absolute;
-    width: 600px;
-    height: 400px;
-    left: 835px;
-    top: 1165px;
+    width: 610px;
+    height: 410px;
+    left: 935px;
+    top: 1175px;
     
     background: rgba(0, 0, 0, 0.8);
     border-radius: 27px;
@@ -250,8 +268,8 @@ color: #FFFFFF;
     position: absolute;
     width: 578px;
     height: 508px;
-    left: 10px;
-    top: -2px;
+    left: 12px;
+    top: -4px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -268,7 +286,7 @@ color: #FFFFFF;
     width: 578px;
     height: 508px;
     left: 15px;
-    top: 35px;
+    top: 25px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -284,7 +302,7 @@ color: #FFFFFF;
     position: absolute;
     width: 373px;
     height: 176px;
-    left: 900px;
+    left: 1025px;
     top: 950px;
 
     background: url(ind.jpg);
@@ -293,10 +311,10 @@ color: #FFFFFF;
 
 .rodape{
     position: absolute;
-    width: 1440px;
-    height: 254px;
-    left: 8px;
-    top: 1596px;
+    width: 100%;
+    height: 270px;
+    left: 0%;
+    top: 1600px;
     
     background: #C5A535;
 }
@@ -305,7 +323,7 @@ color: #FFFFFF;
     position: absolute;
     width: 235px;
     height: 39px;
-    left: 900px;
+    left: 1000px;
     top: -25px;
     
     font-family: 'Inter';
@@ -321,8 +339,8 @@ color: #FFFFFF;
     position: absolute;
     width: 360px;
     height: 31px;
-    left: 935px;
-    top: 1660px;
+    left: 1035px;
+    top: 1690px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -337,8 +355,8 @@ color: #FFFFFF;
     position: absolute;
 width: 159px;
 height: 158px;
-left: 1155px;
-top: 5px;
+left: 1295px;
+top: 15px;
 
 background: url(qrcode_www.trt7.jus.br);
 }
